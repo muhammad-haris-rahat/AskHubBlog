@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(./img/flat-lay-workstation-with-copy-space-laptop_23-2148430879.avif )no-repeat center center/cover ;
+}
+#Login {
+    /* border: 1px solid rgb(35, 35, 35); */
+    width: 455px;
+    margin: 126px 430px;
+    height: 376px;
+   
+
+}
+
+
+#Login #logo{
+    text-align: center;
+    font-family: 'Rubik Burned', system-ui;
+    color: grey;
+    margin-top: 10px;
+    font-size: 30px;
+    cursor: context-menu;
+    
+
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+  
+
+}
+
+
+
+#email{
+    margin-bottom: 30px;
+    color: white;
+    font-size: 30px;
+}
+#password{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+
+}
+
+
+/* button .login-button {
+    padding: 5px 20px;
+    border-radius: 7px; 
+    cursor: pointer;
+} */
+#main input{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    border: none;
+}
+
+#main label{
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+}
+
+.button .login-button{
+    padding: 5px 20px;
+    border-radius: 5px; 
+    cursor: pointer;
+    border: none;
+}
+
+.button .login-button:hover{
+    color: white;
+    background-color: black;
+}

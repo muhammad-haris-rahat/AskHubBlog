@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Blog</title>
+    <link rel="stylesheet" href="./createblog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="main-container">
+        <div id="firstSubContainer">    
+            <div class="logo">
+                <h1>AskHubBlog</h1>
+            </div>
+
+            <div class="logout">
+
+                <a href="./login.html" class="button"><button class="logoutbutton">Logout</button></a>
+
+            </div>
+        </div>
+
+        <div id="secondSubContainer">
+            <div id="heading">
+
+                <h2 style="font-family:sans-serif;">Create Blog Or Ask Questions:</h2>
+
+            </div>
+
+            <div class="titleAndCategory">
+                <div id="title">
+                    <div class="title">
+                        <h3 style="font-family:sans-serif;">Title</h3>
+                    </div>
+
+                    <div class="input">
+                        <input type="text" placeholder="Enter Title">
+                    </div>
+                </div>
+
+                <div id="category">
+                    <h3 style="font-family:sans-serif;">Select Category</h3>
+
+                    <div class="table">
+                        <table border="1">
+                            <tr>
+                                <td style="text-align: center;">Select Category</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;"><a href="#" class="button"><button
+                                            class="js-btn">JavaScript</button></a></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;"><a href="#" class="button"><button
+                                            class="html-btn">Html</button></a></td>
+                            </tr>
+
+                        </table>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+        <div id="thirdSubContainer">
+            <div class="type">
+                <h3 style="font-family:sans-serif;">Select Type</h3>
+                <div class="button">
+                    <input type="radio" name="gender" value="male">
+                    Blog
+                    <input type="radio" name="gender" value="female">
+                    Question
+                </div>
+            </div>
+
+            <div class="status">
+                <h3 style="font-family:sans-serif;">Select Status</h3>
+                <div class="radio-button">
+                    <input type="radio" name="gender" value="male">
+                    Active
+                    <input type="radio" name="gender" value="female">
+                    In Active
+                </div>
+            </div>
+        </div>
+
+        <div id="fourthSubContainer">
+
+            <h2 style="font-family:sans-serif;">Description</h2>
+
+            <textarea name="message" id="message" cols="170" rows="10"></textarea>
+        </div>
+
+        <div id="fifthSubContainer">
+            <a href="#" class="button"><button class="save-btn">Save</button></a>
+            <a href="#" class="button"><button class="cancel-btn">Cancel</button></a>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="./createblog.js"></script>
+</body>
+
+</html>

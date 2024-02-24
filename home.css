@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgb(1, 1, 1);
+    position: absolute;
+    height: 90px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+}
+
+#firstSubContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo {
+    margin-top: 30px;
+    font-family: 'Rubik Burned', system-ui;
+    cursor: context-menu;
+}
+
+.searchBar {
+    margin-top: 30px;
+}
+
+.searchBar input {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    border: none;
+}
+
+.two-btn {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    /* padding-left: 50px; */
+}
+
+.two-btn .loginbutton,
+.two-btn .writeOrAskbutton,
+.two-btn .createblogbutton{
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.two-btn .loginbutton:hover,
+.two-btn .writeOrAskbutton:hover,
+.two-btn .createblogbutton:hover{
+    background: black;
+    color: white;
+}
+
+.login {
+    padding-right: 10px;
+}
+
+.writeOrAsk {
+    padding-left: 10px;
+}
+.createblogbutton{
+    margin-left: 10px;
+    
+}
+.card-section{
+    padding-top: 30px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-1{
+    border: 1px solid black;
+    width: 75%;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+#card-2{
+    border: 1px solid black;
+    width: 75%;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+#card-3{
+    border: 1px solid black;
+    width: 75%;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.text{
+    width: 61%;
+}
+.image{
+    width: 14%;
+}
